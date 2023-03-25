@@ -1,0 +1,19 @@
+// 페이지 공통 스타일링 
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+.container {
+    margin: 0 auto;
+    max-width: 390px;
+    height: 100vh;
+    background-color: white;
+}
+
+.common-inner {
+    padding: 0 $m-padding;
+}

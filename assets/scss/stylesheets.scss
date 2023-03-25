@@ -1,0 +1,19 @@
+//abstracts
+
+@import "../scss/abstracts/variables";
+@import "../scss/abstracts/variables_color";
+@import "../scss/abstracts/mixin_common";
+
+//base
+
+@import "../scss/base/preset";
+@import "../scss/base/reset";
+
+// components
+
+@import "../scss/components/main_header";
+
+// pages
+
+@import "../scss/pages/common";
+

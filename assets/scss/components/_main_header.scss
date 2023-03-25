@@ -1,0 +1,41 @@
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+
+    .select-area{
+        display: flex;
+        
+
+        .head-choice {
+            display: flex;
+            align-items: center;
+            margin-right: 14px;
+            padding: 0 8px 2px 12px;
+            border-radius: 16px;
+            height: 32px;
+            background-color: $main-color-bg1;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+
+            .ico-arrow-down {
+                display: flex;
+                margin-left: 5px;
+                width: 18px;
+                height: 18px;
+                
+            }
+        }
+    }
+
+    .ico-area {
+        display: flex;
+
+        .ico-cart {
+            margin-left: 20px;
+        }
+    }
+}
