@@ -1,3 +1,15 @@
+.scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   min-width: 320px;
   line-height: normal;
@@ -156,6 +168,37 @@ textarea::-webkit-outer-spin-button {
 }
 .head .ico-area .ico-cart {
   margin-left: 20px;
+}
+
+.menu-list-area {
+  display: flex;
+  height: 60px;
+  padding: 0 32px;
+}
+.menu-list-area::before {
+  width: 32px;
+  background-image: linear-gradient(to left, #fff, rgba(255, 255, 255, 0));
+}
+.menu-list-area::after {
+  width: 32px;
+  background-image: linear-gradient(to right, #fff, rgba(255, 255, 255, 0));
+}
+.menu-list-area .menu-list {
+  flex-shrink: 0;
+  line-height: 40px;
+}
+.menu-list-area .menu-list:not(:last-child) {
+  padding-right: 30px;
+}
+.menu-list-area .menu-list span {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.4;
+  color: rgb(102, 102, 102);
+}
+.menu-list-area .menu-list span:hover {
+  color: #000000;
+  font-weight: 700;
 }
 
 * {
